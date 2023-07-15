@@ -1,0 +1,141 @@
+.demo-wrapper {
+  background: radial-gradient(151.98% 64.61% at 50.00% 100.00%, #3E515B 0%, #253137 100%);
+}
+
+.demo {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  padding-top: 96px;
+  padding-bottom: 67px;
+
+  @include vp-1024 {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding-top: 186px;
+    padding-bottom: 119px;
+  }
+}
+
+.demo__image-wrapper {
+  margin-bottom: 38px;
+}
+
+.demo__text-wrapper {
+  @include vp-1024 {
+    text-align: left;
+    margin-right: 60px;
+  }
+}
+
+.demo__text {
+  color: #F6F8FA;
+  text-align: center;
+  font-family: Codec Pro;
+  font-size: clamp(24px, 4vw, 60px);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: -1.2px;
+  margin: 0;
+  margin-bottom: 74px;
+
+  @include vp-1024 {
+    line-height: 100%;
+    letter-spacing: -3px;
+    text-align: left;
+    margin-bottom: 61px;
+  }
+}
+
+.demo__text-action {
+  color: #F6F8FA;
+  text-align: center;
+  font-family: Codec Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%;
+  margin: 0;
+  margin-bottom: 10px;
+
+  @include vp-1024 {
+    text-align: left;
+    margin-bottom: 12px;
+  }
+}
+
+.demo__text-invocation {
+  width: fit-content;
+  color: #F6F8FA;
+  text-align: center;
+  font-family: Codec Pro;
+  font-size: clamp(24px, 4vw, 60px);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: -1.2px;
+  border-radius: 10px;
+  background: #8060F6;
+  padding: 5px 10px;
+  margin: 0 auto;
+  margin-bottom: 17px;
+
+  @include vp-1024 {
+    line-height: 100%;
+    letter-spacing: -3px;
+    padding: 10px 20px;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 25px;
+  }
+}
+
+.demo__howitwork {
+  color: #F6F8FA;
+  text-align: center;
+  font-family: Codec Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%;
+  margin: 0;
+  margin-bottom: 17px;
+
+  p {
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 9px;
+
+    @include vp-1024 {
+      margin: 0;
+      margin-bottom: 25px;
+    }
+  }
+
+  @include vp-1024 {
+    text-align: left;
+    width: 60%;
+  }
+}
+
+.demo__howitwork-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.demo__howitwork-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+
+  @include vp-1024 {
+    justify-content: left;
+  }
+}
+
+.demo__howitwork-link {
+  display: flex;
+}

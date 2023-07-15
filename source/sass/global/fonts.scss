@@ -1,0 +1,80 @@
+/* fonts */
+@font-face {
+  font-family: 'Codec Pro';
+  src: url('../fonts/CodecPro/CodecPro-ExtraBoldItalic.woff2') format('woff2'),
+    url('../fonts/CodecPro/CodecPro-ExtraBoldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Codec Pro';
+  src: url('../fonts/CodecPro/CodecPro-ExtraBold.woff2') format('woff2'),
+    url('../fonts/CodecPro/CodecPro-ExtraBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Codec Pro';
+  src: url('../fonts/CodecPro/Codec-Pro-Bold-Italic.woff2') format('woff2'),
+    url('../fonts/CodecPro/Codec-Pro-Bold-Italic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Codec Pro';
+  src: url('../fonts/CodecPro/Codec-Pro-Bold.woff2') format('woff2'),
+    url('../fonts/CodecPro/Codec-Pro-Bold.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+// @font-face {
+//   font-family: 'Codec Pro';
+//   src: url('../fonts/CodecPro/CodecPro-BoldItalic.woff2') format('woff2'),
+//     url('../fonts/CodecPro/CodecPro-BoldItalic.woff') format('woff');
+//   font-weight: 500;
+//   font-style: italic;
+// }
+
+// @font-face {
+//   font-family: 'Codec Pro';
+//   src: url('../fonts/CodecPro/CodecPro-Bold.woff2') format('woff2'),
+//     url('../fonts/CodecPro/CodecPro-Bold.woff') format('woff');
+//   font-weight: 500;
+//   font-style: normal;
+// }
+
+@font-face {
+  font-family: 'Codec Pro';
+  src: url('../fonts/CodecPro/CodecPro-News.woff2') format('woff2'),
+    url('../fonts/CodecPro/CodecPro-News.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Codec Pro';
+  src: url('../fonts/CodecPro/CodecPro-NewsItalic.woff2') format('woff2'),
+    url('../fonts/CodecPro/CodecPro-NewsItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Codec Pro';
+  src: url('../fonts/CodecPro/CodecPro-Light.woff2') format('woff2'),
+    url('../fonts/CodecPro/CodecPro-Light.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Codec Pro';
+  src: url('../fonts/CodecPro/CodecPro-LightItalic.woff2') format('woff2'),
+    url('../fonts/CodecPro/CodecPro-LightItalic.woff') format('woff');
+  font-weight: 200;
+  font-style: italic;
+}

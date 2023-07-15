@@ -1,0 +1,57 @@
+.footer-wrapper {
+  background: #263238;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-top: 40px;
+  padding-bottom: 30px;
+
+  @include vp-1024 {
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    padding-top: 64px;
+    padding-bottom: 53px;
+  }
+}
+
+.footer__company {
+  color: #F6F8FA;
+  text-align: center;
+  font-family: Codec Pro;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 130%;
+  margin-bottom: 33px;
+
+
+  @include vp-1024 {
+    text-align: left;
+    margin-bottom: 0;
+  }
+
+  a {
+    color: #8060F6;
+    text-decoration: underline;
+  }
+}
+
+.footer__right {
+  text-align: center;
+  font-family: Codec Pro;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 130%;
+
+  @include vp-1024 {
+    text-align: right;
+  }
+
+  a {
+    color: #8060F6;
+    text-decoration-line: underline;
+  }
+}

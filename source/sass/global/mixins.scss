@@ -1,0 +1,34 @@
+@mixin vp-576 {
+
+  @media (min-width: $mediaWidthMobileHorizontal) {
+    @content;
+  }
+}
+
+@mixin vp-768 {
+
+  @media (min-width: $mediaWidthTablet) {
+    @content;
+  }
+}
+
+@mixin vp-1024 {
+
+  @media (min-width: $mediaWidthTabletHorizontal) {
+    @content;
+  }
+}
+
+@mixin vp-1240 {
+
+  @media (min-width: $mediaWidthLaptop) {
+    @content;
+  }
+}
+
+@mixin media-custom($width) {
+
+  @media (min-width: $width) {
+    @content;
+  }
+}

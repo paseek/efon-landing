@@ -1,0 +1,155 @@
+.allows-wrapper {
+  background: radial-gradient(127.50% 56.16% at 50.00% 100.00%, #8060F6 0%, #47437D 100%);
+}
+
+.allows {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  padding-top: 74px;
+  padding-bottom: 49px;
+
+  @include vp-1024 {
+    grid-template-columns: 1fr 0.8fr;
+    align-items: center;
+    padding-top: 86px;
+    padding-bottom: 67px;
+    align-items: center;
+  }
+}
+
+.allows__image-wrapper {
+  @include vp-1024 {
+    order: 1;
+  }
+}
+
+.allows__image {
+  margin-bottom: 32px;
+}
+
+.allows__text-wrapper {
+  @include vp-1024 {
+    order: 0;
+    margin-left: 60px;
+  }
+}
+
+.allows__text {
+  color: #F6F8FA;
+  text-align: center;
+  font-family: Codec Pro;
+  font-size: clamp(24px, 4vw, 60px);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: -1.2px;
+  margin: 0;
+  margin-bottom: 7px;
+
+  @include vp-1024 {
+    text-align: left;
+    line-height: 100%;
+    letter-spacing: -3px;
+    margin-bottom: 11px;
+  }
+}
+
+.allows__text-decoration {
+  width: fit-content;
+  color: #F6F8FA;
+  text-align: center;
+  font-family: Codec Pro;
+  font-size: clamp(24px, 4vw, 60px);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: -1.2px;
+  border-radius: 10px;
+  background: #363A5A;
+  padding: 5px 10px;
+  margin: 0 auto;
+  margin-bottom: 9px;
+
+  @include vp-1024 {
+    line-height: 100%;
+    letter-spacing: -3px;
+    padding: 10px 20px;
+    margin-right: 0;
+    margin-bottom: 11px;
+    margin-left: 0;
+  }
+}
+
+.allows__description {
+  color: #F6F8FA;
+  text-align: center;
+  font-family: Codec Pro;
+  font-size: clamp(20px, 4vw, 36px);
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%;
+  margin: 0;
+  margin-top: 15px;
+  margin-bottom: 105px;
+
+  @include vp-1024 {
+    text-align: left;
+    margin-top: 57px;
+    margin-bottom: 67px;
+  }
+}
+
+.allows__howitwork {
+  color: #F6F8FA;
+  text-align: center;
+  font-family: Codec Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%;
+
+  p {
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 9px;
+
+    @include vp-1024 {
+      margin: 0;
+      margin-bottom: 18px;
+    }
+  }
+
+  @include vp-1024 {
+    text-align: left;
+    width: 60%;
+  }
+}
+
+.allows__howitwork-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.allows__howitwork-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+
+  @include vp-1024 {
+    justify-content: left;
+  }
+}
+
+.allows__howitwork-link {
+  display: flex;
+
+  svg {
+    @include vp-1024 {
+      width: 60px;
+      height: 60px;
+    }
+  }
+}
