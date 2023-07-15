@@ -40,7 +40,8 @@ export function processStyles() {
     .pipe(plumber())
     .pipe(sass().on('error', sass.logError))
     .pipe(postcss([
-      postUrl({ assetsPath: '../' }),
+      // postUrl({ assetsPath: '../' }),
+      // postUrl(),
       autoprefixer(),
       csso()
     ]))

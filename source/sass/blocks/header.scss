@@ -19,7 +19,7 @@
     top: 20%;
     width: 100%;
     height: 100%;
-    background-image: url(../img/bg-promo.svg);
+    background-image: url('../img/bg-promo.svg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
 
@@ -45,7 +45,6 @@
   color: #FFF;
   text-align: center;
   font-family: Codec Pro;
-  // font-size: 32px;
   font-size: clamp(24px, 6vw, 40px);
   font-style: normal;
   font-weight: 500;
@@ -243,18 +242,6 @@
   }
 }
 
-
-
-// .header__fence::before {
-//   content: "";
-//   position: absolute;
-//   top: 129px;
-//   width: 100%;
-//   height: 1px;
-//   background-color: #47437D;
-//   box-shadow: 0 45px #47437d, 0 90px #47437d, 0 135px #47437d, 0 180px #47437d;
-// }
-
 .header__fence {
   order: 6;
   width: 100%;
@@ -280,10 +267,6 @@
   height: 11px;
 
   background-image:
-    // linear-gradient(90deg, #47437D 10%, transparent 10%),
-    // linear-gradient(90deg, transparent 90%, #47437D 90%),
-    // linear-gradient(180deg, #47437D 15%, transparent 15%),
-    // linear-gradient(180deg, transparent 85%, #47437D 85%);
     linear-gradient(to right, #47437d 5%, transparent 5%),
     linear-gradient(to right, transparent 95%, #47437d 95%),
     linear-gradient(to top, #47437d 5%, transparent 5%),
