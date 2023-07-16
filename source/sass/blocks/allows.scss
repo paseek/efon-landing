@@ -6,15 +6,19 @@
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;
-  padding-top: 74px;
-  padding-bottom: 49px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 
   @include vp-1024 {
     grid-template-columns: 1fr 0.8fr;
     align-items: center;
-    padding-top: 86px;
-    padding-bottom: 67px;
-    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  @include vp-1240 {
+    padding-top: 160px;
+    padding-bottom: 160px;
   }
 }
 
@@ -147,9 +151,21 @@
   display: flex;
 
   svg {
+    fill: #6AB836;
+    stroke: none;
+
     @include vp-1024 {
       width: 60px;
       height: 60px;
     }
+
+    &:hover {
+      fill: #98FF53;
+    }
+  }
+
+  &:focus,
+  &:active {
+    outline: 1px solid #FF7A00;
   }
 }

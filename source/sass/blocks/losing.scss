@@ -6,14 +6,19 @@
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;
-  padding-top: 92px;
-  padding-bottom: 119px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 
   @include vp-1024 {
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    padding-top: 255px;
-    padding-bottom: 276px;
+    padding-top: 140px;
+    padding-bottom: 120px;
+  }
+
+  @include vp-1240 {
+    padding-top: 160px;
+    padding-bottom: 140px;
   }
 }
 
